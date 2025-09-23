@@ -1,0 +1,537 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [androidx.databinding:viewbinding:8.13.0] /Users/viken/.gradle/caches/8.14.3/transforms/0954a0e5e9f70ccb4d27f503c5d6a7f6/transformed/viewbinding-8.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.13.0] /Users/viken/.gradle/caches/8.14.3/transforms/4cca0f4a8732033cf2163895178f9ce8/transformed/material-1.13.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/f179bb0525a324a3c47584bc6ccf04cf/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/viken/.gradle/caches/8.14.3/transforms/ac1a5bef688c4a0cd6f280ee19341094/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b4c1cd6727bd8f80b1539faa0d3426e8/transformed/barcode-scanning-17.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/3dabab420b7d6089125506904466dc1b/transformed/barcode-scanning-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/f6461fa27c234f5d75aa7246b3741665/transformed/preference-ktx-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/a91f9de7c4057916200d8cd79971ce37/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/viken/.gradle/caches/8.14.3/transforms/221422bcec957029fcf4fdd6bf744650/transformed/appcompat-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/159adb2e33521d9a284791171e4bfc96/transformed/recyclerview-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/viken/.gradle/caches/8.14.3/transforms/de586ec1ae42c532d59296f59a80ca23/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b5e4be9e5768013aac3174e74e15d0bd/transformed/vision-interfaces-16.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/ec37e8c0c6287174577e44ca200cb37c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.8.9] /Users/viken/.gradle/caches/8.14.3/transforms/517e083676c3f6f29eafa243ef856895/transformed/fragment-1.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] /Users/viken/.gradle/caches/8.14.3/transforms/08d74919ce9ff2f45c0f6a8dc1d6592e/transformed/fragment-ktx-1.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/c700db009bde18844817fc2eadda8d6c/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/viken/.gradle/caches/8.14.3/transforms/1be2ae3427fcf8681c282b08d87d1bdc/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/782a0de3ff2b9fc17771c10f1e9906d8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/5597fdc7fd993dfca80d4776690a8717/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/ef74fd6587a8a10c189e5b8830826c53/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/c98ee33fcc3258bf054fdf5235262a84/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/d399edfd3d05d64bde1592d386d41b24/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/d5631a9a0c3d2b968db086da4337f371/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/3db379f47cdfce56dc6e489ed02cb01f/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/b9b90a41bb0089187ab4433d32289c6a/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/5855004cb18c6404ea393ae72b57bdeb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/d63f095fc5a27baac0d43468746c831d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.activity:activity-ktx:1.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/50a91537294d814e3192ec1def76e0eb/transformed/activity-ktx-1.11.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/93301f34dde99bbbf6c9f8e46f83b870/transformed/activity-1.11.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/viken/.gradle/caches/8.14.3/transforms/a876c6d833ba29d627fd2664ce85953f/transformed/graphics-shapes-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/0745aab6a60bb39ff6b76f41218cd0ff/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/3fe90ec60326fc205faf9dd7ddf726b9/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/dd2d11e49c968ded03a03fd695cf05f4/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/6c8597275f1aefb03d770f2b4d4439fb/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/0e1b30e9b57fab9151934ed76702a0fc/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/b7a43b28c181416c65ca89da33174629/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/8be0330832a03eabb3b43171f7772cd9/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/6f0b434cf64db8447f41c87b8a127e6c/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/02e4eeec010027ddaea73c671fabd43e/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/fe12d32a718cd3d15ca8366022882f0b/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/38b6b12198a474777760412acbec5e4b/transformed/core-ktx-1.17.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/viken/.gradle/caches/8.14.3/transforms/9110e5f1e9bc0e7228c73d99e32dbd92/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/080c7fd7bd77a589ce5423e9a7d23323/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/viken/.gradle/caches/8.14.3/transforms/91fe156532f6aff5311f95c882517de6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/4d214e4010099c3cacb867991073869e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/bc75fb0958d8bddeea610110be4c7a69/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/f1b41391256f4783b93b76a65f8a9f8f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/aa1c7a3a0b86b04dbb6325906b6e6de2/transformed/startup-runtime-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/69ef0e687581ed1a04ebf6c2412786a1/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/46e01763663d214c583865dcf4db0b23/transformed/transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/5d9e35934eaa2cfca7048e655d154b55/transformed/firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/3d7ef3aebb297d2273dfb65605c8c7a2/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/c458255c3d3d050ef9d7fa190aeb2050/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/373174ec1d9d86aa9b1b59d6d001f21c/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/viken/.gradle/caches/8.14.3/transforms/6ca8d09dc1e2455f85e0260bc2689f0f/transformed/image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:8:5-67
+MERGED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:6:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:7:5-8:46
+	android:required
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:8:19-43
+	android:name
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:7:19-57
+application
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:10:5-32:19
+INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:10:5-32:19
+MERGED from [com.google.android.material:material:1.13.0] /Users/viken/.gradle/caches/8.14.3/transforms/4cca0f4a8732033cf2163895178f9ce8/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] /Users/viken/.gradle/caches/8.14.3/transforms/4cca0f4a8732033cf2163895178f9ce8/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/f179bb0525a324a3c47584bc6ccf04cf/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/f179bb0525a324a3c47584bc6ccf04cf/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/ec37e8c0c6287174577e44ca200cb37c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/ec37e8c0c6287174577e44ca200cb37c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:10:5-20:19
+MERGED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:10:5-20:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/viken/.gradle/caches/8.14.3/transforms/91fe156532f6aff5311f95c882517de6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/viken/.gradle/caches/8.14.3/transforms/91fe156532f6aff5311f95c882517de6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/aa1c7a3a0b86b04dbb6325906b6e6de2/transformed/startup-runtime-1.2.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/aa1c7a3a0b86b04dbb6325906b6e6de2/transformed/startup-runtime-1.2.0/AndroidManifest.xml:23:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/viken/.gradle/caches/8.14.3/transforms/6ca8d09dc1e2455f85e0260bc2689f0f/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/viken/.gradle/caches/8.14.3/transforms/6ca8d09dc1e2455f85e0260bc2689f0f/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:15:9-41
+	android:fullBackupContent
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:13:9-54
+	android:roundIcon
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:16:9-48
+	tools:targetApi
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:20:9-29
+	android:icon
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:18:9-46
+	android:networkSecurityConfig
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:19:9-69
+	android:dataExtractionRules
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:12:9-65
+activity#com.example.orderapp.LoginActivity
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:23:13-36
+	android:theme
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:24:13-50
+	android:name
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:22:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.example.orderapp.OrdersListActivity
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:30:9-56
+	android:name
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:30:19-53
+activity#com.example.orderapp.OrderDetailsActivity
+ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:31:9-58
+	android:name
+		ADDED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:31:19-55
+uses-sdk
+INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.13.0] /Users/viken/.gradle/caches/8.14.3/transforms/0954a0e5e9f70ccb4d27f503c5d6a7f6/transformed/viewbinding-8.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.13.0] /Users/viken/.gradle/caches/8.14.3/transforms/0954a0e5e9f70ccb4d27f503c5d6a7f6/transformed/viewbinding-8.13.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.13.0] /Users/viken/.gradle/caches/8.14.3/transforms/4cca0f4a8732033cf2163895178f9ce8/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] /Users/viken/.gradle/caches/8.14.3/transforms/4cca0f4a8732033cf2163895178f9ce8/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/f179bb0525a324a3c47584bc6ccf04cf/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/f179bb0525a324a3c47584bc6ccf04cf/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/viken/.gradle/caches/8.14.3/transforms/ac1a5bef688c4a0cd6f280ee19341094/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/viken/.gradle/caches/8.14.3/transforms/ac1a5bef688c4a0cd6f280ee19341094/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b4c1cd6727bd8f80b1539faa0d3426e8/transformed/barcode-scanning-17.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b4c1cd6727bd8f80b1539faa0d3426e8/transformed/barcode-scanning-17.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/3dabab420b7d6089125506904466dc1b/transformed/barcode-scanning-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/3dabab420b7d6089125506904466dc1b/transformed/barcode-scanning-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:6:5-44
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/f6461fa27c234f5d75aa7246b3741665/transformed/preference-ktx-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/f6461fa27c234f5d75aa7246b3741665/transformed/preference-ktx-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/a91f9de7c4057916200d8cd79971ce37/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/a91f9de7c4057916200d8cd79971ce37/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/viken/.gradle/caches/8.14.3/transforms/221422bcec957029fcf4fdd6bf744650/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/viken/.gradle/caches/8.14.3/transforms/221422bcec957029fcf4fdd6bf744650/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/159adb2e33521d9a284791171e4bfc96/transformed/recyclerview-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/159adb2e33521d9a284791171e4bfc96/transformed/recyclerview-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/viken/.gradle/caches/8.14.3/transforms/de586ec1ae42c532d59296f59a80ca23/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/viken/.gradle/caches/8.14.3/transforms/de586ec1ae42c532d59296f59a80ca23/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b5e4be9e5768013aac3174e74e15d0bd/transformed/vision-interfaces-16.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b5e4be9e5768013aac3174e74e15d0bd/transformed/vision-interfaces-16.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/ec37e8c0c6287174577e44ca200cb37c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/ec37e8c0c6287174577e44ca200cb37c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.8.9] /Users/viken/.gradle/caches/8.14.3/transforms/517e083676c3f6f29eafa243ef856895/transformed/fragment-1.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.9] /Users/viken/.gradle/caches/8.14.3/transforms/517e083676c3f6f29eafa243ef856895/transformed/fragment-1.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] /Users/viken/.gradle/caches/8.14.3/transforms/08d74919ce9ff2f45c0f6a8dc1d6592e/transformed/fragment-ktx-1.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] /Users/viken/.gradle/caches/8.14.3/transforms/08d74919ce9ff2f45c0f6a8dc1d6592e/transformed/fragment-ktx-1.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/c700db009bde18844817fc2eadda8d6c/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/c700db009bde18844817fc2eadda8d6c/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/viken/.gradle/caches/8.14.3/transforms/1be2ae3427fcf8681c282b08d87d1bdc/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/viken/.gradle/caches/8.14.3/transforms/1be2ae3427fcf8681c282b08d87d1bdc/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/782a0de3ff2b9fc17771c10f1e9906d8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/782a0de3ff2b9fc17771c10f1e9906d8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/5597fdc7fd993dfca80d4776690a8717/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/5597fdc7fd993dfca80d4776690a8717/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/ef74fd6587a8a10c189e5b8830826c53/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/ef74fd6587a8a10c189e5b8830826c53/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/c98ee33fcc3258bf054fdf5235262a84/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/c98ee33fcc3258bf054fdf5235262a84/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/d399edfd3d05d64bde1592d386d41b24/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/d399edfd3d05d64bde1592d386d41b24/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/d5631a9a0c3d2b968db086da4337f371/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/d5631a9a0c3d2b968db086da4337f371/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/3db379f47cdfce56dc6e489ed02cb01f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/3db379f47cdfce56dc6e489ed02cb01f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/b9b90a41bb0089187ab4433d32289c6a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/b9b90a41bb0089187ab4433d32289c6a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/5855004cb18c6404ea393ae72b57bdeb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/5855004cb18c6404ea393ae72b57bdeb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/d63f095fc5a27baac0d43468746c831d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/d63f095fc5a27baac0d43468746c831d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.activity:activity-ktx:1.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/50a91537294d814e3192ec1def76e0eb/transformed/activity-ktx-1.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/50a91537294d814e3192ec1def76e0eb/transformed/activity-ktx-1.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/93301f34dde99bbbf6c9f8e46f83b870/transformed/activity-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/93301f34dde99bbbf6c9f8e46f83b870/transformed/activity-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/viken/.gradle/caches/8.14.3/transforms/a876c6d833ba29d627fd2664ce85953f/transformed/graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/viken/.gradle/caches/8.14.3/transforms/a876c6d833ba29d627fd2664ce85953f/transformed/graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/0745aab6a60bb39ff6b76f41218cd0ff/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/0745aab6a60bb39ff6b76f41218cd0ff/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/3fe90ec60326fc205faf9dd7ddf726b9/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/3fe90ec60326fc205faf9dd7ddf726b9/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/dd2d11e49c968ded03a03fd695cf05f4/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/dd2d11e49c968ded03a03fd695cf05f4/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/6c8597275f1aefb03d770f2b4d4439fb/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/6c8597275f1aefb03d770f2b4d4439fb/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/0e1b30e9b57fab9151934ed76702a0fc/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/0e1b30e9b57fab9151934ed76702a0fc/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/b7a43b28c181416c65ca89da33174629/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/b7a43b28c181416c65ca89da33174629/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/8be0330832a03eabb3b43171f7772cd9/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/8be0330832a03eabb3b43171f7772cd9/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/6f0b434cf64db8447f41c87b8a127e6c/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/6f0b434cf64db8447f41c87b8a127e6c/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/02e4eeec010027ddaea73c671fabd43e/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/02e4eeec010027ddaea73c671fabd43e/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/fe12d32a718cd3d15ca8366022882f0b/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/fe12d32a718cd3d15ca8366022882f0b/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/38b6b12198a474777760412acbec5e4b/transformed/core-ktx-1.17.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/38b6b12198a474777760412acbec5e4b/transformed/core-ktx-1.17.0/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:6:5-44
+MERGED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:6:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/viken/.gradle/caches/8.14.3/transforms/9110e5f1e9bc0e7228c73d99e32dbd92/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/viken/.gradle/caches/8.14.3/transforms/9110e5f1e9bc0e7228c73d99e32dbd92/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/080c7fd7bd77a589ce5423e9a7d23323/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/080c7fd7bd77a589ce5423e9a7d23323/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/viken/.gradle/caches/8.14.3/transforms/91fe156532f6aff5311f95c882517de6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/viken/.gradle/caches/8.14.3/transforms/91fe156532f6aff5311f95c882517de6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/4d214e4010099c3cacb867991073869e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/4d214e4010099c3cacb867991073869e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/bc75fb0958d8bddeea610110be4c7a69/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/bc75fb0958d8bddeea610110be4c7a69/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/f1b41391256f4783b93b76a65f8a9f8f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/f1b41391256f4783b93b76a65f8a9f8f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/aa1c7a3a0b86b04dbb6325906b6e6de2/transformed/startup-runtime-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/aa1c7a3a0b86b04dbb6325906b6e6de2/transformed/startup-runtime-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/69ef0e687581ed1a04ebf6c2412786a1/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/69ef0e687581ed1a04ebf6c2412786a1/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/46e01763663d214c583865dcf4db0b23/transformed/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/viken/.gradle/caches/8.14.3/transforms/46e01763663d214c583865dcf4db0b23/transformed/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/5d9e35934eaa2cfca7048e655d154b55/transformed/firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/5d9e35934eaa2cfca7048e655d154b55/transformed/firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/3d7ef3aebb297d2273dfb65605c8c7a2/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/3d7ef3aebb297d2273dfb65605c8c7a2/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/c458255c3d3d050ef9d7fa190aeb2050/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/c458255c3d3d050ef9d7fa190aeb2050/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/373174ec1d9d86aa9b1b59d6d001f21c/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/373174ec1d9d86aa9b1b59d6d001f21c/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/viken/.gradle/caches/8.14.3/transforms/6ca8d09dc1e2455f85e0260bc2689f0f/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/viken/.gradle/caches/8.14.3/transforms/6ca8d09dc1e2455f85e0260bc2689f0f/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:11:9-19:20
+MERGED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:11:9-19:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/aa1c7a3a0b86b04dbb6325906b6e6de2/transformed/startup-runtime-1.2.0/AndroidManifest.xml:24:9-28:34
+MERGED from [androidx.startup:startup-runtime:1.2.0] /Users/viken/.gradle/caches/8.14.3/transforms/aa1c7a3a0b86b04dbb6325906b6e6de2/transformed/startup-runtime-1.2.0/AndroidManifest.xml:24:9-28:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+permission#com.example.orderapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.orderapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#okhttp3.internal.platform.PlatformInitializer
+ADDED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:16:13-18:52
+	android:value
+		ADDED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:18:17-49
+	android:name
+		ADDED from [com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:17:17-77
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132

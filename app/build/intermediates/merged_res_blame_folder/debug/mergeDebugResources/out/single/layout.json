@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.orderapp-mergeDebugResources-47:/layout/item_item.xml",
+        "source": "com.example.orderapp-main-50:/layout/item_item.xml"
+    },
+    {
+        "merged": "com.example.orderapp-mergeDebugResources-47:/layout/item_order.xml",
+        "source": "com.example.orderapp-main-50:/layout/item_order.xml"
+    },
+    {
+        "merged": "com.example.orderapp-mergeDebugResources-47:/layout/activity_orders_list.xml",
+        "source": "com.example.orderapp-main-50:/layout/activity_orders_list.xml"
+    },
+    {
+        "merged": "com.example.orderapp-mergeDebugResources-47:/layout/dialog_qty.xml",
+        "source": "com.example.orderapp-main-50:/layout/dialog_qty.xml"
+    },
+    {
+        "merged": "com.example.orderapp-mergeDebugResources-47:/layout/activity_order_details.xml",
+        "source": "com.example.orderapp-main-50:/layout/activity_order_details.xml"
+    },
+    {
+        "merged": "com.example.orderapp-mergeDebugResources-47:/layout/activity_login.xml",
+        "source": "com.example.orderapp-main-50:/layout/activity_login.xml"
+    }
+]
