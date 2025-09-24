@@ -1,0 +1,94 @@
+diff --git a/app/build.gradle b/app/build.gradle
+index e69de29..1111111 100644
+--- a/app/build.gradle
++++ b/app/build.gradle
+@@
+ dependencies {
+-    implementation "com.google.android.material:material:1.6.1"
++    implementation "androidx.compose.material3:material3:1.2.1"
++    implementation "androidx.compose.material3:material3-window-size-class:1.2.1"
++    implementation "androidx.compose.ui:ui:1.5.1"
++    implementation "androidx.compose.ui:ui-tooling-preview:1.5.1"
++    debugImplementation "androidx.compose.ui:ui-tooling:1.5.1"
+ }
++
++// Ensure Compose is enabled
++android {
++    buildFeatures {
++        compose true
++    }
++    composeOptions {
++        kotlinCompilerExtensionVersion '1.5.1'
++    }
++}
+diff --git a/app/src/main/java/com/example/orderapp/ui/theme/Theme.kt b/app/src/main/java/com/example/orderapp/ui/theme/Theme.kt
+new file mode 100644
+index 0000000..2222222
+--- /dev/null
++++ b/app/src/main/java/com/example/orderapp/ui/theme/Theme.kt
+@@
++package com.example.orderapp.ui.theme
++
++import androidx.compose.foundation.isSystemInDarkTheme
++import androidx.compose.material3.*
++import androidx.compose.runtime.Composable
++import androidx.compose.ui.platform.LocalContext
++
++@Composable
++fun OrderAppTheme(
++    darkTheme: Boolean = isSystemInDarkTheme(),
++    dynamicColor: Boolean = true,
++    content: @Composable () -> Unit
++) {
++    val colorScheme = when {
++        dynamicColor -> {
++            val context = LocalContext.current
++            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
++        }
++        darkTheme -> darkColorScheme()
++        else -> lightColorScheme()
++    }
++
++    MaterialTheme(
++        colorScheme = colorScheme,
++        typography = Typography(),
++        content = content
++    )
++}
+diff --git a/app/src/main/java/com/example/orderapp/MainActivity.kt b/app/src/main/java/com/example/orderapp/MainActivity.kt
+index abcdef1..3333333 100644
+--- a/app/src/main/java/com/example/orderapp/MainActivity.kt
++++ b/app/src/main/java/com/example/orderapp/MainActivity.kt
+@@
+ import android.os.Bundle
+ import androidx.activity.ComponentActivity
+ import androidx.activity.compose.setContent
+-import androidx.compose.material.MaterialTheme
+-import androidx.compose.material.Surface
++import androidx.compose.foundation.layout.fillMaxSize
++import androidx.compose.material3.MaterialTheme
++import androidx.compose.material3.Surface
++import com.example.orderapp.ui.theme.OrderAppTheme
+ import androidx.compose.runtime.Composable
++import androidx.compose.ui.Modifier
+ 
+ class MainActivity : ComponentActivity() {
+     override fun onCreate(savedInstanceState: Bundle?) {
+         super.onCreate(savedInstanceState)
+         setContent {
+-            MaterialTheme {
+-                Surface(color = MaterialTheme.colors.background) {
+-                    AppNavigation()
+-                }
+-            }
++            OrderAppTheme {
++                Surface(
++                    modifier = Modifier.fillMaxSize(),
++                    color = MaterialTheme.colorScheme.background
++                ) {
++                    AppNavigation()
++                }
++            }
+         }
+     }
+ }

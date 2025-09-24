@@ -9,18 +9,18 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:5:5-67
-11-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:5:22-64
+11-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.CAMERA" />
-12-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:6:5-65
-12-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:6:22-62
+12-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:6:5-65
+12-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:6:22-62
 13
 14    <uses-feature
-14-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:7:5-8:46
+14-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:7:5-8:46
 15        android:name="android.hardware.camera"
-15-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:7:19-57
+15-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:7:19-57
 16        android:required="false" />
-16-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:8:19-43
+16-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:8:19-43
 17
 18    <permission
 18-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
@@ -38,55 +38,55 @@
 24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
 25
 26    <application
-26-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:10:5-32:19
+26-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:10:5-32:19
 27        android:allowBackup="true"
-27-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:11:9-35
+27-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:11:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
 29        android:dataExtractionRules="@xml/data_extraction_rules"
-29-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:12:9-65
+29-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:12:9-65
 30        android:debuggable="true"
 31        android:extractNativeLibs="false"
 32        android:fullBackupContent="@xml/backup_rules"
-32-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:13:9-54
+32-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:13:9-54
 33        android:icon="@mipmap/ic_launcher"
-33-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:14:9-43
+33-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:14:9-43
 34        android:label="@string/app_name"
-34-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:15:9-41
+34-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:15:9-41
 35        android:networkSecurityConfig="@xml/network_security_config"
-35-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:19:9-69
+35-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:19:9-69
 36        android:roundIcon="@mipmap/ic_launcher"
-36-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:16:9-48
+36-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:16:9-48
 37        android:supportsRtl="true"
-37-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:17:9-35
+37-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:17:9-35
 38        android:testOnly="true"
 39        android:theme="@style/Theme.OrderApp" >
-39-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:18:9-46
+39-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:18:9-46
 40        <activity
-40-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:21:9-29:20
+40-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:21:9-29:20
 41            android:name="com.example.orderapp.LoginActivity"
-41-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:22:13-42
+41-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:22:13-42
 42            android:exported="true"
-42-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:23:13-36
+42-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:23:13-36
 43            android:theme="@style/Theme.OrderApp" >
-43-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:24:13-50
+43-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:24:13-50
 44            <intent-filter>
-44-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:25:13-28:29
+44-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:25:13-28:29
 45                <action android:name="android.intent.action.MAIN" />
-45-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:26:17-69
-45-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:26:25-66
+45-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:26:17-69
+45-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:26:25-66
 46
 47                <category android:name="android.intent.category.LAUNCHER" />
-47-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:27:17-77
-47-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:27:27-74
+47-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:27:17-77
+47-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:27:27-74
 48            </intent-filter>
 49        </activity>
 50        <activity android:name="com.example.orderapp.OrdersListActivity" />
-50-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:30:9-56
-50-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:30:19-53
+50-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:30:9-56
+50-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:30:19-53
 51        <activity android:name="com.example.orderapp.OrderDetailsActivity" />
-51-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:31:9-58
-51-->/Users/viken/Documents/OrderApp/app/src/main/AndroidManifest.xml:31:19-55
+51-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:31:9-58
+51-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:31:19-55
 52
 53        <service
 53-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:9:9-15:19

@@ -3762,6 +3762,23 @@
                     }
                 },
                 {
+                    "source": "/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,11,9,12,2,3,4,10,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "286,462,370,508,55,102,149,417,196,241,328",
+                        "endColumns": "41,45,46,47,46,46,46,44,44,44,41",
+                        "endOffsets": "323,503,412,551,97,144,191,457,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "725,726,792,1182,1192,1193,1194,1195,1206,1207,1210",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "38209,38251,42958,70137,70842,70889,70936,70983,71725,71770,71936",
+                        "endColumns": "41,45,46,47,46,46,46,44,44,44,41",
+                        "endOffsets": "38246,38292,43000,70180,70884,70931,70978,71023,71765,71810,71973"
+                    }
+                },
+                {
                     "source": "/Users/viken/.gradle/caches/8.14.3/transforms/159adb2e33521d9a284791171e4bfc96/transformed/recyclerview-1.4.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -3855,13 +3872,13 @@
                     }
                 },
                 {
-                    "source": "/Users/viken/Documents/OrderApp/app/src/main/res/values/strings.xml",
+                    "source": "/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "2,21,12,15,6,18,4,20,9,8,7,16,5,13,14,19,17,10,22,11,23,3",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "57,967,557,694,255,831,169,932,390,339,296,741,210,608,654,883,787,435,1010,498,1081,111",
+                        "startOffsets": "55,946,545,679,249,813,165,912,381,331,289,725,205,595,640,864,770,425,988,487,1058,108",
                         "endColumns": "52,41,49,45,39,50,39,33,43,49,41,44,43,44,38,47,42,61,69,57,57,56",
-                        "endOffsets": "105,1004,602,735,290,877,204,961,429,384,333,781,249,648,688,926,825,492,1075,551,1134,163"
+                        "endOffsets": "103,983,590,720,284,859,200,941,420,376,326,765,244,635,674,907,808,482,1053,540,1111,160"
                     },
                     "to": {
                         "startLines": "2480,2494,2499,2518,2520,2531,2533,2654,2655,2656,2657,2658,2659,2665,2669,2670,2671,2672,2673,2675,2681,2682",
@@ -3942,23 +3959,6 @@
                     }
                 },
                 {
-                    "source": "/Users/viken/Documents/OrderApp/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "7,11,9,12,2,3,4,10,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "293,473,379,520,57,105,153,427,201,247,336",
-                        "endColumns": "41,45,46,47,46,46,46,44,44,44,41",
-                        "endOffsets": "330,514,421,563,99,147,195,467,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "725,726,792,1182,1192,1193,1194,1195,1206,1207,1210",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "38209,38251,42958,70137,70842,70889,70936,70983,71725,71770,71936",
-                        "endColumns": "41,45,46,47,46,46,46,44,44,44,41",
-                        "endOffsets": "38246,38292,43000,70180,70884,70931,70978,71023,71765,71810,71973"
-                    }
-                },
-                {
                     "source": "/Users/viken/.gradle/caches/8.14.3/transforms/ef74fd6587a8a10c189e5b8830826c53/transformed/transition-1.5.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
@@ -4024,25 +4024,6 @@
                         "startOffsets": "158324",
                         "endColumns": "42",
                         "endOffsets": "158362"
-                    }
-                },
-                {
-                    "source": "/Users/viken/Documents/OrderApp/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "104",
-                        "endLines": "10",
-                        "endColumns": "12",
-                        "endOffsets": "672"
-                    },
-                    "to": {
-                        "startLines": "7813",
-                        "startColumns": "4",
-                        "startOffsets": "553915",
-                        "endLines": "7821",
-                        "endColumns": "12",
-                        "endOffsets": "554473"
                     }
                 },
                 {
@@ -4119,6 +4100,25 @@
                         "endLines": "15805",
                         "endColumns": "24",
                         "endOffsets": "942623"
+                    }
+                },
+                {
+                    "source": "/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "662"
+                    },
+                    "to": {
+                        "startLines": "7813",
+                        "startColumns": "4",
+                        "startOffsets": "553915",
+                        "endLines": "7821",
+                        "endColumns": "12",
+                        "endOffsets": "554473"
                     }
                 },
                 {

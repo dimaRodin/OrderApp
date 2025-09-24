@@ -1,42 +1,42 @@
 [
     {
-        "merged": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-debug-48:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-main-50:/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "com.example.orderapp-debug-48:/xml_network_security_config.xml.flat",
         "source": "com.example.orderapp-main-50:/xml/network_security_config.xml"
     },
     {
-        "merged": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-debug-48:/layout_item_item.xml.flat",
-        "source": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-main-50:/layout/item_item.xml"
+        "merged": "com.example.orderapp-debug-48:/xml_backup_rules.xml.flat",
+        "source": "com.example.orderapp-main-50:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-debug-48:/layout_item_order.xml.flat",
-        "source": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-main-50:/layout/item_order.xml"
+        "merged": "com.example.orderapp-debug-48:/layout_activity_login.xml.flat",
+        "source": "com.example.orderapp-main-50:/layout/activity_login.xml"
     },
     {
-        "merged": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-debug-48:/layout_activity_orders_list.xml.flat",
-        "source": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-main-50:/layout/activity_orders_list.xml"
+        "merged": "com.example.orderapp-debug-48:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.orderapp-main-50:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-debug-48:/layout_dialog_qty.xml.flat",
-        "source": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-main-50:/layout/dialog_qty.xml"
+        "merged": "com.example.orderapp-debug-48:/layout_item_item.xml.flat",
+        "source": "com.example.orderapp-main-50:/layout/item_item.xml"
     },
     {
-        "merged": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-debug-48:/layout_activity_login.xml.flat",
-        "source": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-main-50:/layout/activity_login.xml"
+        "merged": "com.example.orderapp-debug-48:/layout_item_order.xml.flat",
+        "source": "com.example.orderapp-main-50:/layout/item_order.xml"
     },
     {
-        "merged": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-debug-48:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-main-50:/xml/data_extraction_rules.xml"
+        "merged": "com.example.orderapp-debug-48:/layout_activity_order_details.xml.flat",
+        "source": "com.example.orderapp-main-50:/layout/activity_order_details.xml"
     },
     {
-        "merged": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-debug-48:/layout_activity_order_details.xml.flat",
-        "source": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-main-50:/layout/activity_order_details.xml"
+        "merged": "com.example.orderapp-debug-48:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.orderapp-main-50:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-debug-48:/xml_backup_rules.xml.flat",
-        "source": "/Users/viken/.gradle/daemon/8.14.3/com.example.orderapp-main-50:/xml/backup_rules.xml"
+        "merged": "com.example.orderapp-debug-48:/layout_activity_orders_list.xml.flat",
+        "source": "com.example.orderapp-main-50:/layout/activity_orders_list.xml"
+    },
+    {
+        "merged": "com.example.orderapp-debug-48:/layout_dialog_qty.xml.flat",
+        "source": "com.example.orderapp-main-50:/layout/dialog_qty.xml"
     }
 ]
