@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.orderapp-mergeDebugResources-46:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.orderapp-mergeDebugResources-53:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/Users/viken/.gradle/caches/8.14.3/transforms/221422bcec957029fcf4fdd6bf744650/transformed/appcompat-1.7.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/Users/viken/.gradle/caches/8.14.3/transforms/56e89c7a41f22dbb9c15e2580854e342/transformed/appcompat-1.7.1/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

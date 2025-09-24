@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="24"
+8        android:minSdkVersion="31"
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
@@ -16,33 +16,33 @@
 12-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:6:22-62
 13
 14    <uses-feature
-14-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:7:5-8:46
+14-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:7:5-8:36
 15        android:name="android.hardware.camera"
 15-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:7:19-57
 16        android:required="false" />
-16-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:8:19-43
+16-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:8:9-33
 17
 18    <permission
-18-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+18-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/41bcd78c2998ad944533c954e98bbc3a/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
 19        android:name="com.example.orderapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-19-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+19-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/41bcd78c2998ad944533c954e98bbc3a/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
 20        android:protectionLevel="signature" />
-20-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+20-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/41bcd78c2998ad944533c954e98bbc3a/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
 21
 22    <uses-permission android:name="com.example.orderapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-22-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
-22-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+22-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/41bcd78c2998ad944533c954e98bbc3a/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/41bcd78c2998ad944533c954e98bbc3a/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
 23    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
-24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/4a647bcde651bd117681ce302ddef4fa/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/4a647bcde651bd117681ce302ddef4fa/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
 25
 26    <application
 26-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:10:5-32:19
 27        android:allowBackup="true"
 27-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:11:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/fd3df9e55ff2e4239f9f13d6f66c4fe6/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+28-->[androidx.core:core:1.17.0] /Users/viken/.gradle/caches/8.14.3/transforms/41bcd78c2998ad944533c954e98bbc3a/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
 29        android:dataExtractionRules="@xml/data_extraction_rules"
 29-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:12:9-65
 30        android:debuggable="true"
@@ -65,7 +65,7 @@
 40        <activity
 40-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:21:9-29:20
 41            android:name="com.example.orderapp.LoginActivity"
-41-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:22:13-42
+41-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:22:13-43
 42            android:exported="true"
 42-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:23:13-36
 43            android:theme="@style/Theme.OrderApp" >
@@ -89,174 +89,181 @@
 51-->/Users/viken/AndroidStudioProjects/OrderApp/app/src/main/AndroidManifest.xml:31:19-55
 52
 53        <service
-53-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:9:9-15:19
+53-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/535dd0839b743ce7a70542904dcb4c53/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:9:9-15:19
 54            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
-54-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:10:13-91
+54-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/535dd0839b743ce7a70542904dcb4c53/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:10:13-91
 55            android:directBootAware="true"
-55-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:17:13-43
+55-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/893e75bdbf086a8d7ed244c98d876c72/transformed/jetified-common-18.11.0/AndroidManifest.xml:17:13-43
 56            android:exported="false" >
-56-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:11:13-37
+56-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/535dd0839b743ce7a70542904dcb4c53/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:11:13-37
 57            <meta-data
-57-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:12:13-14:85
+57-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/535dd0839b743ce7a70542904dcb4c53/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:12:13-14:85
 58                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
-58-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:13:17-120
+58-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/535dd0839b743ce7a70542904dcb4c53/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:13:17-120
 59                android:value="com.google.firebase.components.ComponentRegistrar" />
-59-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/77029c381f35d21f5b35b3a75eca6ce6/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:14:17-82
+59-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/viken/.gradle/caches/8.14.3/transforms/535dd0839b743ce7a70542904dcb4c53/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:14:17-82
 60            <meta-data
-60-->[com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+60-->[com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/52db3af34f0cdea65107e116c4784425/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
 61                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
-61-->[com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:13:17-124
+61-->[com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/52db3af34f0cdea65107e116c4784425/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
 62                android:value="com.google.firebase.components.ComponentRegistrar" />
-62-->[com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/2002e6c6c91c20d33bb4ef68f86653d7/transformed/vision-common-17.3.0/AndroidManifest.xml:14:17-82
+62-->[com.google.mlkit:vision-common:17.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/52db3af34f0cdea65107e116c4784425/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
 63            <meta-data
-63-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:20:13-22:85
+63-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/893e75bdbf086a8d7ed244c98d876c72/transformed/jetified-common-18.11.0/AndroidManifest.xml:20:13-22:85
 64                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
-64-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:21:17-120
+64-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/893e75bdbf086a8d7ed244c98d876c72/transformed/jetified-common-18.11.0/AndroidManifest.xml:21:17-120
 65                android:value="com.google.firebase.components.ComponentRegistrar" />
-65-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:22:17-82
+65-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/893e75bdbf086a8d7ed244c98d876c72/transformed/jetified-common-18.11.0/AndroidManifest.xml:22:17-82
 66        </service>
 67
 68        <provider
-68-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:9:9-13:38
+68-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/893e75bdbf086a8d7ed244c98d876c72/transformed/jetified-common-18.11.0/AndroidManifest.xml:9:9-13:38
 69            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-69-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:10:13-78
+69-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/893e75bdbf086a8d7ed244c98d876c72/transformed/jetified-common-18.11.0/AndroidManifest.xml:10:13-78
 70            android:authorities="com.example.orderapp.mlkitinitprovider"
-70-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:11:13-69
+70-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/893e75bdbf086a8d7ed244c98d876c72/transformed/jetified-common-18.11.0/AndroidManifest.xml:11:13-69
 71            android:exported="false"
-71-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:12:13-37
+71-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/893e75bdbf086a8d7ed244c98d876c72/transformed/jetified-common-18.11.0/AndroidManifest.xml:12:13-37
 72            android:initOrder="99" />
-72-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/310558a44c400b51dbb1df673c4420da/transformed/common-18.11.0/AndroidManifest.xml:13:13-35
+72-->[com.google.mlkit:common:18.11.0] /Users/viken/.gradle/caches/8.14.3/transforms/893e75bdbf086a8d7ed244c98d876c72/transformed/jetified-common-18.11.0/AndroidManifest.xml:13:13-35
 73
 74        <activity
-74-->[com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+74-->[com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/953dfecf35dc03fbf8e19b57c852892e/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
 75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-75-->[com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+75-->[com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/953dfecf35dc03fbf8e19b57c852892e/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
 76            android:exported="false"
-76-->[com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+76-->[com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/953dfecf35dc03fbf8e19b57c852892e/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
 77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-77-->[com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/05489f97629d3c9699994e52c032336a/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+77-->[com.google.android.gms:play-services-base:18.5.0] /Users/viken/.gradle/caches/8.14.3/transforms/953dfecf35dc03fbf8e19b57c852892e/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
 78
 79        <meta-data
-79-->[com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+79-->[com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/93587d91c5cc0c1923dba6161eedef19/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
 80            android:name="com.google.android.gms.version"
-80-->[com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+80-->[com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/93587d91c5cc0c1923dba6161eedef19/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
 81            android:value="@integer/google_play_services_version" />
-81-->[com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/ddc51670bf9494089d2cb2c08e295d0b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+81-->[com.google.android.gms:play-services-basement:18.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/93587d91c5cc0c1923dba6161eedef19/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
 82
-83        <provider
-83-->[androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-84            android:name="androidx.startup.InitializationProvider"
-84-->[androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-85            android:authorities="com.example.orderapp.androidx-startup"
-85-->[androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-86            android:exported="false" >
-86-->[androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-87            <meta-data
-87-->[androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-88-->[androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-89                android:value="androidx.startup" />
-89-->[androidx.emoji2:emoji2:1.3.0] /Users/viken/.gradle/caches/8.14.3/transforms/b7b6871785c485f88b53cc8d97592844/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-90            <meta-data
-90-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
-91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-91-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
-92                android:value="androidx.startup" />
-92-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/viken/.gradle/caches/8.14.3/transforms/f341448c148975f56dc5f42eba5c9970/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
-93            <meta-data
-93-->[com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:16:13-18:52
-94                android:name="okhttp3.internal.platform.PlatformInitializer"
-94-->[com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:17:17-77
-95                android:value="androidx.startup" />
-95-->[com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/8a2f229650b71cc66615d60cc2831507/transformed/okhttp-release/AndroidManifest.xml:18:17-49
-96            <meta-data
-96-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
-97                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-97-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
-98                android:value="androidx.startup" />
-98-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
-99        </provider>
-100
-101        <uses-library
-101-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-102            android:name="androidx.window.extensions"
-102-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-103            android:required="false" />
-103-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-104        <uses-library
-104-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-105            android:name="androidx.window.sidecar"
-105-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-106            android:required="false" />
-106-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/56f694cea772f3873dd475e661acd210/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-107
-108        <receiver
-108-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
-109            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-109-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
-110            android:directBootAware="false"
-110-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
-111            android:enabled="true"
-111-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
-112            android:exported="true"
-112-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
-113            android:permission="android.permission.DUMP" >
-113-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
-114            <intent-filter>
-114-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
-115                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-115-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
-115-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
-116            </intent-filter>
-117            <intent-filter>
-117-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
-118                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-118-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
-118-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
-119            </intent-filter>
-120            <intent-filter>
-120-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
-121                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-121-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
-121-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
-122            </intent-filter>
-123            <intent-filter>
-123-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
-124                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-124-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
-124-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/9bd3a4e62121ab4a97b737b3076df4f5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
-125            </intent-filter>
-126        </receiver>
-127
-128        <service
-128-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
-129            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-129-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
-130            android:exported="false" >
-130-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
-131            <meta-data
-131-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
-132                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-132-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
-133                android:value="cct" />
-133-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/76faf0a542a9e2f43a171a137f7457d4/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
-134        </service>
-135        <service
-135-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
-136            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-136-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
-137            android:exported="false"
-137-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
-138            android:permission="android.permission.BIND_JOB_SERVICE" >
-138-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
-139        </service>
-140
-141        <receiver
-141-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
-142            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-142-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
-143            android:exported="false" />
-143-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/168c991188cb5bfd19afdf61c60266eb/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
-144    </application>
-145
-146</manifest>
+83        <activity
+83-->[androidx.compose.ui:ui-tooling-android:1.9.2] /Users/viken/.gradle/caches/8.14.3/transforms/c95b5adb265e00bb5dd0956e6a4fe414/transformed/jetified-ui-tooling/AndroidManifest.xml:23:9-25:39
+84            android:name="androidx.compose.ui.tooling.PreviewActivity"
+84-->[androidx.compose.ui:ui-tooling-android:1.9.2] /Users/viken/.gradle/caches/8.14.3/transforms/c95b5adb265e00bb5dd0956e6a4fe414/transformed/jetified-ui-tooling/AndroidManifest.xml:24:13-71
+85            android:exported="true" />
+85-->[androidx.compose.ui:ui-tooling-android:1.9.2] /Users/viken/.gradle/caches/8.14.3/transforms/c95b5adb265e00bb5dd0956e6a4fe414/transformed/jetified-ui-tooling/AndroidManifest.xml:25:13-36
+86
+87        <uses-library
+87-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/09f2be649d0115331d49e929626ae17d/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+88            android:name="androidx.window.extensions"
+88-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/09f2be649d0115331d49e929626ae17d/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+89            android:required="false" />
+89-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/09f2be649d0115331d49e929626ae17d/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+90        <uses-library
+90-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/09f2be649d0115331d49e929626ae17d/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+91            android:name="androidx.window.sidecar"
+91-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/09f2be649d0115331d49e929626ae17d/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0] /Users/viken/.gradle/caches/8.14.3/transforms/09f2be649d0115331d49e929626ae17d/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/23212ec6e69794b5c959fa0c3a80e96c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/23212ec6e69794b5c959fa0c3a80e96c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
+96            android:authorities="com.example.orderapp.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/23212ec6e69794b5c959fa0c3a80e96c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/23212ec6e69794b5c959fa0c3a80e96c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/23212ec6e69794b5c959fa0c3a80e96c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/23212ec6e69794b5c959fa0c3a80e96c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/23212ec6e69794b5c959fa0c3a80e96c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/viken/.gradle/caches/8.14.3/transforms/819a00a6a32f65a9bdb155f289e3a1e7/transformed/jetified-lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/viken/.gradle/caches/8.14.3/transforms/819a00a6a32f65a9bdb155f289e3a1e7/transformed/jetified-lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/viken/.gradle/caches/8.14.3/transforms/819a00a6a32f65a9bdb155f289e3a1e7/transformed/jetified-lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/e2c281e23e84e908d791897fdefebe37/transformed/jetified-okhttp-release/AndroidManifest.xml:16:13-18:52
+105                android:name="okhttp3.internal.platform.PlatformInitializer"
+105-->[com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/e2c281e23e84e908d791897fdefebe37/transformed/jetified-okhttp-release/AndroidManifest.xml:17:17-77
+106                android:value="androidx.startup" />
+106-->[com.squareup.okhttp3:okhttp-android:5.1.0] /Users/viken/.gradle/caches/8.14.3/transforms/e2c281e23e84e908d791897fdefebe37/transformed/jetified-okhttp-release/AndroidManifest.xml:18:17-49
+107            <meta-data
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+109                android:value="androidx.startup" />
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+110        </provider>
+111
+112        <receiver
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+113            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+114            android:directBootAware="false"
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+115            android:enabled="true"
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+116            android:exported="true"
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+117            android:permission="android.permission.DUMP" >
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+119                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+122                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+125                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+126            </intent-filter>
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+128                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/viken/.gradle/caches/8.14.3/transforms/33988220d5cff0514dd8e918913971d4/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+129            </intent-filter>
+130        </receiver>
+131
+132        <service
+132-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/4a647bcde651bd117681ce302ddef4fa/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+133            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+133-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/4a647bcde651bd117681ce302ddef4fa/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+134            android:exported="false" >
+134-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/4a647bcde651bd117681ce302ddef4fa/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+135            <meta-data
+135-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/4a647bcde651bd117681ce302ddef4fa/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+136                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+136-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/4a647bcde651bd117681ce302ddef4fa/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+137                android:value="cct" />
+137-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/viken/.gradle/caches/8.14.3/transforms/4a647bcde651bd117681ce302ddef4fa/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+138        </service>
+139        <service
+139-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/8373dac355e8c2fcd8b24864adb65ec5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+140            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+140-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/8373dac355e8c2fcd8b24864adb65ec5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+141            android:exported="false"
+141-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/8373dac355e8c2fcd8b24864adb65ec5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+142            android:permission="android.permission.BIND_JOB_SERVICE" >
+142-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/8373dac355e8c2fcd8b24864adb65ec5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+143        </service>
+144
+145        <receiver
+145-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/8373dac355e8c2fcd8b24864adb65ec5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+146            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+146-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/8373dac355e8c2fcd8b24864adb65ec5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+147            android:exported="false" />
+147-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/viken/.gradle/caches/8.14.3/transforms/8373dac355e8c2fcd8b24864adb65ec5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+148    </application>
+149
+150</manifest>
