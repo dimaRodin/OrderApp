@@ -1,0 +1,7 @@
+com.example.orderapp.test.app-jetified-core-1.7.0-0 /Users/viken/.gradle/caches/8.14.3/transforms/0ad6fefdc52113d765948e678cf589d9/transformed/jetified-core-1.7.0/res
+com.example.orderapp.test.app-jetified-tracing-1.2.0-1 /Users/viken/.gradle/caches/8.14.3/transforms/0cdf7b9fcee089f0a6494a6c08f70f10/transformed/jetified-tracing-1.2.0/res
+com.example.orderapp.test.app-androidTest-2 /Users/viken/AndroidStudioProjects/OrderApp/app/build/generated/res/resValues/androidTest/debug
+com.example.orderapp.test.app-updated_navigation_xml-3 /Users/viken/AndroidStudioProjects/OrderApp/app/build/generated/updated_navigation_xml/debugAndroidTest
+com.example.orderapp.test.app-mergeDebugAndroidTestResources-4 /Users/viken/AndroidStudioProjects/OrderApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.orderapp.test.app-mergeDebugAndroidTestResources-5 /Users/viken/AndroidStudioProjects/OrderApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.orderapp.test.app-debugAndroidTest-6 /Users/viken/AndroidStudioProjects/OrderApp/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
