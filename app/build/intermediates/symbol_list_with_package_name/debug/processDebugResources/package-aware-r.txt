@@ -3913,8 +3913,6 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
-id collected_qty
-id complete_button
 id compose_prefetch_scheduler
 id compose_view_saveable_id_tag
 id compress
@@ -4036,9 +4034,7 @@ id invisible
 id inward
 id is_pooling_container_tag
 id italic
-id item_name
 id item_touch_helper_previous_elevation
-id items_recycler
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -4156,9 +4152,6 @@ id open_search_view_status_bar_spacer
 id open_search_view_text_container
 id open_search_view_toolbar
 id open_search_view_toolbar_container
-id order_date
-id order_id
-id orders_recycler
 id outline
 id outward
 id overshoot
@@ -4168,7 +4161,6 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id partial_button
 id password
 id password_layout
 id password_toggle
@@ -4177,7 +4169,6 @@ id pathRelative
 id peekHeight
 id percent
 id pin
-id planned_qty
 id pooling_container_listener_holder_tag
 id position
 id postLayout
@@ -4185,10 +4176,8 @@ id preferences_detail
 id preferences_header
 id preferences_sliding_pane_layout
 id pressed
-id price
 id progress_circular
 id progress_horizontal
-id qty_edit
 id radio
 id ratio
 id rectangles
@@ -4203,12 +4192,10 @@ id right_side
 id rounded
 id row_index_key
 id rtl
-id save_button
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
-id scan_button
 id screen
 id scroll
 id scrollIndicatorDown
@@ -4219,7 +4206,6 @@ id search_badge
 id search_bar
 id search_button
 id search_close_btn
-id search_edit
 id search_edit_frame
 id search_go_btn
 id search_mag_icon
@@ -4311,7 +4297,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolbar
 id top
 id topPanel
 id top_center
@@ -4476,8 +4461,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
-layout activity_order_details
-layout activity_orders_list
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4494,13 +4477,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout dialog_qty
 layout expand_button
 layout image_frame
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
-layout item_item
-layout item_order
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
