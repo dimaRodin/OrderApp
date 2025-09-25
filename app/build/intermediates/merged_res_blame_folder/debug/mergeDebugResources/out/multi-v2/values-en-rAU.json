@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.orderapp-mergeDebugResources-54:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.orderapp-mergeDebugResources-55:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/Users/viken/.gradle/caches/8.14.3/transforms/154f171b67b2785b8dad24a636712a82/transformed/jetified-material3/res/values-en-rAU/values-en-rAU.xml",

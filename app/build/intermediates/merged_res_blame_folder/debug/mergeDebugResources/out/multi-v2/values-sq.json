@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.orderapp-mergeDebugResources-54:/values-sq/values-sq.xml",
+            "outputFile": "com.example.orderapp-mergeDebugResources-55:/values-sq/values-sq.xml",
             "map": [
                 {
                     "source": "/Users/viken/.gradle/caches/8.14.3/transforms/93587d91c5cc0c1923dba6161eedef19/transformed/jetified-play-services-basement-18.4.0/res/values-sq/values.xml",

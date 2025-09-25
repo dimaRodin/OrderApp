@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.orderapp-mergeDebugResources-54:/values-it/values-it.xml",
+            "outputFile": "com.example.orderapp-mergeDebugResources-55:/values-it/values-it.xml",
             "map": [
                 {
                     "source": "/Users/viken/.gradle/caches/8.14.3/transforms/1968f58b86c2c5e374225e4c1ac2a4b7/transformed/jetified-material/res/values-it/values-it.xml",

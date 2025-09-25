@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.orderapp-mergeDebugResources-54:/values-eu/values-eu.xml",
+            "outputFile": "com.example.orderapp-mergeDebugResources-55:/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/Users/viken/.gradle/caches/8.14.3/transforms/0685637452b788c7a844ceefc20b9ccd/transformed/jetified-ui-release/res/values-eu/values-eu.xml",
