@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.orderapp-mergeDebugResources-53:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.example.orderapp-mergeDebugResources-54:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
                     "source": "/Users/viken/.gradle/caches/8.14.3/transforms/01b81610d03e4cd92d52cba87addba35/transformed/material-1.13.0/res/values-h320dp-port-v13/values-h320dp-port-v13.xml",

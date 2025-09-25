@@ -10,7 +10,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.compose.foundation.clickable // <--- ДОБАВЛЕН ИМПОРТ
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -24,27 +24,27 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.orderapp.OrderAppTheme
 import com.google.mlkit.vision.barcode.BarcodeScannerOptions
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.barcode.common.Barcode
 import com.google.mlkit.vision.common.InputImage
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 class OrderDetailsActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val order = intent.getSerializableExtra("order") as Order
+        val order = intent.getSerializableExtra("order") as? Order
+
+        if (order == null) {
+            Toast.makeText(this, "Ошибка: не удалось загрузить заказ.", Toast.LENGTH_LONG).show()
+            finish()
+            return
+        }
+
         setContent {
             OrderAppTheme {
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    OrderDetailsScreen(order = order)
-                }
+                OrderDetailsScreen(initialOrder = order)
             }
         }
     }
@@ -52,84 +52,77 @@ class OrderDetailsActivity : ComponentActivity() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun OrderDetailsScreen(order: Order) {
-    var status by remember { mutableStateOf("") }
+fun OrderDetailsScreen(
+    initialOrder: Order,
+    viewModel: OrderDetailsViewModel = viewModel()
+) {
     var searchText by remember { mutableStateOf("") }
     val context = LocalContext.current
-    val items = remember { mutableStateListOf(*order.items.toTypedArray()) }
+    val items = viewModel.items
     var showQtyDialog by remember { mutableStateOf<Item?>(null) }
+
+    LaunchedEffect(initialOrder) {
+        viewModel.initializeOrder(initialOrder)
+    }
 
     val cameraLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.StartActivityForResult()
     ) { result ->
         if (result.resultCode == Activity.RESULT_OK) {
-            val bitmap = result.data?.extras?.get("data") as Bitmap
-            val image = InputImage.fromBitmap(bitmap, 0)
-            val options = BarcodeScannerOptions.Builder()
-                .setBarcodeFormats(Barcode.FORMAT_ALL_FORMATS)
-                .build()
-            val scanner = BarcodeScanning.getClient(options)
-            scanner.process(image)
-                .addOnSuccessListener { barcodes ->
-                    for (barcode in barcodes) {
-                        val value = barcode.rawValue
-                        if (value != null) {
+            val bitmap = result.data?.extras?.get("data") as? Bitmap
+            if (bitmap != null) {
+                val image = InputImage.fromBitmap(bitmap, 0)
+                val options = BarcodeScannerOptions.Builder()
+                    .setBarcodeFormats(Barcode.FORMAT_ALL_FORMATS)
+                    .build()
+                BarcodeScanning.getClient(options).process(image)
+                    .addOnSuccessListener { barcodes ->
+                        barcodes.firstOrNull()?.rawValue?.let { value ->
                             val item = items.find { it.barcode == value }
                             if (item != null) {
                                 showQtyDialog = item
                             } else {
                                 Toast.makeText(context, "Товар не найден", Toast.LENGTH_SHORT).show()
                             }
-                            break
                         }
                     }
-                }
-                .addOnFailureListener { e ->
-                    Toast.makeText(context, "Ошибка сканирования: ${e.message}", Toast.LENGTH_SHORT).show()
-                }
+                    .addOnFailureListener {
+                        Toast.makeText(context, "Ошибка сканирования", Toast.LENGTH_SHORT).show()
+                    }
+            }
         }
     }
 
     Scaffold(
-        topBar = {
-            TopAppBar(
-                title = { Text("Детали заказа") }
-            )
-        }
+        topBar = { TopAppBar(title = { Text("Детали заказа №${initialOrder.id}") }) }
     ) { padding ->
         Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(padding)
-                .padding(16.dp)
+            modifier = Modifier.fillMaxSize().padding(padding).padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
                 OutlinedTextField(
                     value = searchText,
                     onValueChange = { searchText = it },
                     label = { Text("Поиск или сканирование") },
                     modifier = Modifier.weight(1f),
+                    singleLine = true,
                     keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
                     keyboardActions = KeyboardActions(onSearch = {
                         val item = items.find { it.barcode == searchText || it.name.contains(searchText, ignoreCase = true) }
-                        if (item != null) {
-                            showQtyDialog = item
-                        } else {
-                            Toast.makeText(context, "Товар не найден", Toast.LENGTH_SHORT).show()
-                        }
+                        if (item != null) showQtyDialog = item
+                        else Toast.makeText(context, "Товар не найден", Toast.LENGTH_SHORT).show()
                     })
                 )
-                Spacer(modifier = Modifier.width(8.dp))
-                Button(onClick = {
-                    val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-                    cameraLauncher.launch(intent)
-                }) {
+                Button(onClick = { cameraLauncher.launch(Intent(MediaStore.ACTION_IMAGE_CAPTURE)) }) {
                     Text("Скан")
                 }
             }
 
-            Spacer(modifier = Modifier.height(16.dp))
-
+            // 👇 ИЗМЕНЕНИЕ ЗДЕСЬ: УДАЛЕН ПАРАМЕТР key
             LazyColumn(modifier = Modifier.weight(1f)) {
                 items(items) { item ->
                     ItemRow(item = item, onClick = { showQtyDialog = item })
@@ -137,49 +130,27 @@ fun OrderDetailsScreen(order: Order) {
                 }
             }
 
-            Spacer(modifier = Modifier.height(16.dp))
-
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 Button(
-                    onClick = { status = "complete" },
+                    onClick = { viewModel.status = "complete" },
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = if (status == "complete") MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surface
+                        containerColor = if (viewModel.status == "complete") MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surfaceVariant
                     )
-                ) {
-                    Text("Выполнен")
-                }
+                ) { Text("Выполнен") }
                 Button(
-                    onClick = { status = "partial" },
+                    onClick = { viewModel.status = "partial" },
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = if (status == "partial") MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surface
+                        containerColor = if (viewModel.status == "partial") MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surfaceVariant
                     )
-                ) {
-                    Text("Частично")
-                }
+                ) { Text("Частично") }
             }
-            Spacer(modifier = Modifier.height(8.dp))
             Button(
                 onClick = {
-                    if (status.isEmpty()) {
-                        Toast.makeText(context, "Выберите статус", Toast.LENGTH_SHORT).show()
-                    } else {
-                        val request = RecordRequest(order.id, items, status)
-                        RetrofitClient.getApiService(context).recordOrder(request).enqueue(object : Callback<Void> {
-                            override fun onResponse(call: Call<Void>, response: Response<Void>) {
-                                if (response.isSuccessful) {
-                                    Toast.makeText(context, "Сохранено", Toast.LENGTH_SHORT).show()
-                                    (context as? Activity)?.finish()
-                                } else {
-                                    Toast.makeText(context, "Ошибка сохранения", Toast.LENGTH_SHORT).show()
-                                }
-                            }
-
-                            override fun onFailure(call: Call<Void>, t: Throwable) {
-                                Toast.makeText(context, "Ошибка: ${t.message}", Toast.LENGTH_SHORT).show()
-                            }
-                        })
+                    val activity = (context as? Activity)
+                    viewModel.saveOrder(context) {
+                        activity?.finish()
                     }
                 },
                 modifier = Modifier.fillMaxWidth()
@@ -193,11 +164,8 @@ fun OrderDetailsScreen(order: Order) {
         QtyDialog(
             item = showQtyDialog!!,
             onDismiss = { showQtyDialog = null },
-            onConfirm = { newItem ->
-                val index = items.indexOfFirst { it.barcode == newItem.barcode }
-                if (index != -1) {
-                    items[index] = newItem
-                }
+            onConfirm = { updatedItem: Item ->
+                viewModel.updateItemQty(updatedItem, updatedItem.collected_qty)
                 showQtyDialog = null
             }
         )
@@ -210,15 +178,17 @@ fun ItemRow(item: Item, onClick: () -> Unit) {
         modifier = Modifier
             .fillMaxWidth()
             .clickable(onClick = onClick)
-            .padding(vertical = 8.dp),
+            .padding(vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Column(modifier = Modifier.weight(1f)) {
             Text(item.name, style = MaterialTheme.typography.bodyLarge)
             Text("Штрих-код: ${item.barcode}", style = MaterialTheme.typography.bodySmall)
         }
-        // <--- ИЗМЕНЕНА СТРОКА НИЖЕ
-        Text("Кол-во: ${item.collected_qty}", style = MaterialTheme.typography.bodyLarge)
+        Text(
+            "Кол-во: ${item.collected_qty} / ${item.collected_qty}",
+            style = MaterialTheme.typography.bodyLarge
+        )
     }
 }
 
@@ -229,18 +199,19 @@ fun QtyDialog(item: Item, onDismiss: () -> Unit, onConfirm: (Item) -> Unit) {
 
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Введите количество") },
+        title = { Text(item.name) },
         text = {
             OutlinedTextField(
                 value = qty,
                 onValueChange = { qty = it },
-                label = { Text("Собранное количество") },
+                label = { Text("Собранное количество (из ${item.collected_qty})") },
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
             )
         },
         confirmButton = {
             Button(onClick = {
-                onConfirm(item.copy(collected_qty = qty.toDoubleOrNull() ?: 0.0))
+                val newQty = qty.toDoubleOrNull() ?: item.collected_qty
+                onConfirm(item.copy(collected_qty = newQty))
             }) {
                 Text("OK")
             }
