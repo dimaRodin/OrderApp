@@ -17,8 +17,8 @@ class OrdersListViewModel : ViewModel() {
     var errorMessage by mutableStateOf<String?>(null)
         private set
 
-    fun fetchOrders(context: Context) {
-        RetrofitClient.getApiService(context).getOrders().enqueue(object : Callback<OrdersResponse> {
+    fun fetchOrders(context: Context, storeId: String) {
+        RetrofitClient.getApiService(context).getOrders(storeId).enqueue(object : Callback<OrdersResponse> {
             override fun onResponse(call: Call<OrdersResponse>, response: Response<OrdersResponse>) {
                 if (response.isSuccessful) {
                     orders = response.body()?.orders ?: emptyList()

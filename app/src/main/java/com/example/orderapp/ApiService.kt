@@ -4,12 +4,12 @@ import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
-import retrofit2.http.Path
+import retrofit2.http.Query
 import java.io.Serializable
 
 interface ApiService {
     @GET("konark_intelmed_erp/hs/zak/get_zak")
-    fun getOrders(): Call<OrdersResponse>
+    fun getOrders(@Query("store_id") storeId: String): Call<OrdersResponse>
 
     @POST("konark_intelmed_erp/hs/zak/record_zak")
     fun recordOrder(@Body request: RecordRequest): Call<Void>

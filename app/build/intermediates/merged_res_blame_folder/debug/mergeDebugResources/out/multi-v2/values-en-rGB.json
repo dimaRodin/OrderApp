@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.orderapp-mergeDebugResources-54:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.example.orderapp-mergeDebugResources-55:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/viken/.gradle/caches/8.14.3/transforms/3992df301a9b7ac5e39623f12c2c64a3/transformed/preference-1.2.1/res/values-en-rGB/values-en-rGB.xml",

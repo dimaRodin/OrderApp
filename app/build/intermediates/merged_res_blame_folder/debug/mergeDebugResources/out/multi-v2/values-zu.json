@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.orderapp-mergeDebugResources-54:/values-zu/values-zu.xml",
+            "outputFile": "com.example.orderapp-mergeDebugResources-55:/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "/Users/viken/.gradle/caches/8.14.3/transforms/36cc65822ec8f9e68611a8b7bf3f8b6f/transformed/jetified-foundation-release/res/values-zu/values-zu.xml",

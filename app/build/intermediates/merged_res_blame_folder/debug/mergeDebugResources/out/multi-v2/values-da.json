@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.orderapp-mergeDebugResources-54:/values-da/values-da.xml",
+            "outputFile": "com.example.orderapp-mergeDebugResources-55:/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/Users/viken/.gradle/caches/8.14.3/transforms/41bcd78c2998ad944533c954e98bbc3a/transformed/core-1.17.0/res/values-da/values-da.xml",
